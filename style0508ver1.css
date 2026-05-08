@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Shunpu";
+  src: url("https://cdn.jsdelivr.net/gh/M-max1116/font1/Ver1.01_Shunpu_Regular.woff2") format("woff2");
+}
+
+/* 名前 */
+.name {
+  font-family: "Shunpu" !important;
+}
+
+/* 日時 */
+.time {
+  font-family: "Shunpu" !important;
+}
+
+/* 本文 */
+.line-text,
+.postMessage {
+  font-family: "Shunpu" !important;
+}
+
+/* スレ番号（投稿番号のリンク部分） */
+a[href*="/write?reply="] {
+  font-family: "Shunpu" !important;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 18px;
+  color: #666;
+}
+
+.line-text,
+.postMessage {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+a[href*="/write?reply="] {
+  font-size: 18px;
+}
+
+.line-text,
+.postMessage {
+  letter-spacing: 0.05em;
+}
+.line-text,
+.postMessage {
+  line-height: 1.2;
+  margin: 2px 0;
+}
