@@ -50,6 +50,6 @@ a[href*="/write?reply="] {
 }
 .line-text,
 .postMessage {
-  line-height: 1.2;
+  line-height: 1.35;
   margin: 2px 0;
 }
